@@ -1,8 +1,19 @@
-/* ********* Sotto i 768px  ********** */
+/* ********* Sotto i 576px  ********** */
 
 @media screen and (max-width: 576px) {
     h2 {
-      display: flex;
-      align-items: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .card {
+       position: relative;
+       left: 100px;
     }
 }
+
+
